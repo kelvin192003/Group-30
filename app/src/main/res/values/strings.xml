@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NotesApp</string>
+    <string name="main"> Create your first note</string>
+    <string name="Create">Create a Note</string>
+    <string name="notely">Notely</string>
+    <string name="home_text">Add a note about anything (your thoughts on climate change, or your history essay) and share it witht the world.</string>
 </resources>
