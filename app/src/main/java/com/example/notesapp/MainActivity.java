@@ -8,6 +8,8 @@ import android.view.View;
 
 import com.google.android.material.button.MaterialButton;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     MaterialButton matButton;
@@ -28,5 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }
