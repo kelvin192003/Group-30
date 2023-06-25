@@ -1,5 +1,5 @@
 
-# A Notes App 
+# A simple Notes App 
 ## Group 30 
 
 A simple Notes App for creating and editing sticky Notes made with Android Studio and Java
