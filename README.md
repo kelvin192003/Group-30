@@ -25,6 +25,7 @@ A simple Notes App for creating and editing sticky Notes made with Android Studi
 - [@Kenny-skv](https://github.com/Kenny-skv)
 - [@kingvhans](https://github.com/kingvhans)
 - [@SunfredShun](https://github.com/SunfredShun)
+- [@AmoakoDomson](https://github.com/AmoakoDomson)
 - [@JosephAwuku33](https://github.com/JosephAwuku33) **Scrum Master**
 
 
