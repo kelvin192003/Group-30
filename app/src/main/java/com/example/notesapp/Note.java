@@ -1,4 +1,4 @@
-// This is a Note class created representing a Note Object that would be stored in the Realm DB
+// This is a Note class created to represent a Note Object that would be stored in the Realm DB
 package com.example.notesapp;
 
 import io.realm.RealmObject;
