@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         proceed();
     }
-
+    // This proceed function seeks to initialize the material button and to call a new activity to begin
     public void proceed(){
         matButton = findViewById(R.id.button_next);
         matButton.setOnClickListener(new View.OnClickListener() {
