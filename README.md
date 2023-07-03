@@ -4,7 +4,8 @@
 
 A simple Notes App for creating and editing sticky Notes made with Android Studio and Java
 
-
+## Features
+Uses Realm Db's client side to store the notes on the Phone's local storage
 
 
 ## Tech Stack
