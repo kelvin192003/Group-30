@@ -15,7 +15,7 @@
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:textSize="29sp"
+        android:textSize="30sp"
         android:fontFamily="@font/nunito_regular"
         />
 
