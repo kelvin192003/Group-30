@@ -1,9 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primary"
     tools:context=".PremiumPage">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imagePica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/notely"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pica"
+        />
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/premium_main"
+        android:layout_below="@id/imagePica"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunito"
+        />
+
+    <TextView
+        android:id="@+id/premium_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/createText"
+        android:layout_marginTop="40dp"
+        android:text="@string/premium_text1"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunito_regular"
+        />
+
+    <TextView
+        android:id="@+id/premium_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/premium_text1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="@string/premium_text2"
+        android:textSize="19sp"
+        android:fontFamily="@font/nunito_regular"
+        />
+
+    <TextView
+        android:id="@+id/premium_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/premium_text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/premium_text3"
+        android:textSize="19sp"
+        android:fontFamily="@font/nunito_regular"
+        />
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/premium_text3"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        card_view:contentPadding="10dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_marginBottom="16dp"
+        card_view:cardCornerRadius="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/annual"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito_regular"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/money1"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nunito"
+            android:textSize="22sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/card_view"
+        android:layout_below="@id/premium_text3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        card_view:contentPadding="10dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_marginBottom="16dp"
+        card_view:cardCornerRadius="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthly"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito_regular"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/money2"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nunito"
+            android:textSize="22sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="15dp"
+        android:text="@string/subscribe"
+        android:textSize="19dp"
+        android:textColor="@color/white"
+
+        android:fontFamily="@font/nunito"
+        android:layout_marginTop="15dp"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/card_view2"
+        />
+
+
+
+
+
+
+</RelativeLayout>
