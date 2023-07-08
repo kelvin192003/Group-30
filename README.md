@@ -23,7 +23,7 @@ Uses Realm Db's client side to store the notes on the Phone's local storage
 - [@areyouagod23](https://github.com/areyouagod23) Software Tester
 - [@Emmanuel-tetteh]() Software Engineer
 - [@kelvin192003](https://github.com/kelvin192003) Product Manager
-- [@Kenny-skv](https://github.com/Kenny-skv)
+- [@Kenny-skv](https://github.com/Kenny-skv) Data Engineer
 - [@kingvhans](https://github.com/kingvhans)
 - [@SunfredShun](https://github.com/SunfredShun) UX/UI designer
 - [@AmoakoDomson](https://github.com/AmoakoDomson) 
