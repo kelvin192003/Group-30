@@ -13,8 +13,7 @@ Uses Realm Db's client side to store the notes on the Phone's local storage
 
 **IDE**: Android Studio
 
-**Tools:**  Java , Realm DB
-
+**Tools:**  Java, Realm DB
 
 
 
