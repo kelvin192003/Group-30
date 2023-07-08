@@ -20,13 +20,13 @@ Uses Realm Db's client side to store the notes on the Phone's local storage
 ## Team Members
 
 - [@Carlton001](https://github.com/Carlton001)
-- [@areyouagod23](https://github.com/areyouagod23)
+- [@areyouagod23](https://github.com/areyouagod23) Software Tester
 - [@Emmanuel-tetteh]()
 - [@kelvin192003](https://github.com/kelvin192003)
 - [@Kenny-skv](https://github.com/Kenny-skv)
 - [@kingvhans](https://github.com/kingvhans)
 - [@SunfredShun](https://github.com/SunfredShun)
-- [@AmoakoDomson](https://github.com/AmoakoDomson)
+- [@AmoakoDomson](https://github.com/AmoakoDomson) 
 - [@JosephAwuku33](https://github.com/JosephAwuku33) **Scrum Master**
 
 
