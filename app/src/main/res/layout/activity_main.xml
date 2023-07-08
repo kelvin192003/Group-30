@@ -14,7 +14,7 @@
         android:contentDescription="@string/notely"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
-        android:src="@drawable/main"
+        android:src="@drawable/Main"
         />
 
     <TextView
@@ -60,7 +60,7 @@
         android:fontFamily="@font/nunito"
         android:layout_marginTop="15dp"
         app:cornerRadius="10dp"
-        android:backgroundTint="@color/secondary"
+        android:backgroundTint="#F8D9614C"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/addNoteText"
         />
