@@ -24,7 +24,7 @@ Uses Realm Db's client side to store the notes on the Phone's local storage
 - [@Emmanuel-tetteh]() Software Engineer
 - [@kelvin192003](https://github.com/kelvin192003) Product Manager
 - [@Kenny-skv](https://github.com/Kenny-skv) Data Engineer
-- [@kingvhans](https://github.com/kingvhans)
+- [@kingvhans](https://github.com/kingvhans) Software Architect
 - [@SunfredShun](https://github.com/SunfredShun) UX/UI designer
 - [@AmoakoDomson](https://github.com/AmoakoDomson) 
 - [@JosephAwuku33](https://github.com/JosephAwuku33) **Scrum Master**
