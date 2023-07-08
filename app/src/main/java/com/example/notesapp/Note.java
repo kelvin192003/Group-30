@@ -1,7 +1,9 @@
+// This is a Note class created to represent a Note Object that would be stored in the Realm DB
 package com.example.notesapp;
 
 import io.realm.RealmObject;
 
+// The Note class inherits the properties of RealmObject
 public class Note extends RealmObject {
     String title;
     String description;

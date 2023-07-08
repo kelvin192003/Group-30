@@ -6,5 +6,14 @@
     <string name="notely">Notely</string>
     <string name="Title">Title</string>
     <string name="Words">Type in what you want</string>
+    <string name="premium_main">Start using Notely with Premium Benefits</string>
+    <string name="premium_text1">✔ Save unlimited notes to a single project</string>
+    <string name="premium_text2">✔ Create unlimited projects and teams</string>
+    <string name="premium_text3">✔ Daily backups to keep your data safe</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="annual">Annual</string>
+    <string name="monthly">Monthly</string>
+    <string name="money1">$79.9</string>
+    <string name="money2">$7.99</string>
     <string name="home_text">Add a note about anything (your thoughts on climate change, or your history essay) and share it witht the world.</string>
 </resources>

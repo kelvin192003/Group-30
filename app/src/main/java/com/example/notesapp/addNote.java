@@ -1,3 +1,4 @@
+//This file helps in adding a new note into the DB
 package com.example.notesapp;
 
 import androidx.appcompat.app.AppCompatActivity;
